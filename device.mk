@@ -19,7 +19,7 @@ TARGET_NO_SUPERUSER := false
 TARGET_RECOVERY_TWRP := false
 
 # overlay
-DEVICE_PACKAGE_OVERLAYS += device/sony/nozomi/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/hikari/overlay
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
@@ -166,7 +166,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl-legacy \
     camera.device@1.0-impl-legacy
 
-DEVICE_MANIFEST_FILE := device/sony/nozomi/manifest.xml
+DEVICE_MANIFEST_FILE := device/sony/hikari/manifest.xml
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
