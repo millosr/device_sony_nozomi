@@ -225,7 +225,7 @@ static int set_light_notifications (struct light_device_t *dev, struct light_sta
 	g_notification = *state;
 	g_buttons_notification = *state;
 	if (is_lit (&g_buttons_notification))
-		g_buttons_notification.color = 255;
+		g_buttons_notification.color = 0x404040;
 	handle_shared_battery_locked(dev);
 	handle_shared_buttons_locked(dev);
 	pthread_mutex_unlock (&g_lock);
