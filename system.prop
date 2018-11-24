@@ -72,6 +72,7 @@ persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
+ro.ril.telephony.mqanelements=5
 DEVICE_PROVISIONED=1
 persist.actionsafe.maxwidth=20
 persist.actionsafe.maxheight=20
