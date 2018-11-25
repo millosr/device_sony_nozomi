@@ -1,3 +1,4 @@
+allow untrusted_app proc_stat:file r_file_perms;
 allow untrusted_app proc_tty_drivers:file r_file_perms;
 allow untrusted_app proc_vmstat:file r_file_perms;
 allow untrusted_app selinuxfs:file r_file_perms;

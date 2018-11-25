@@ -1,1 +1,7 @@
+allow system_app dalvikcache_data_file:file write;
+allow system_app input_device:chr_file r_file_perms;
+allow system_app input_device:dir search;
+allow system_app selinuxfs:file r_file_perms;
 allow system_app shell_data_file:dir search;
+allow system_app sysfs_mdp:file write;
+allow system_app sysfs_wakeup:file write;

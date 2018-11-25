@@ -18,3 +18,6 @@ type su_device, dev_type, mlstrustedobject;
 
 # adb device
 type adb_device, dev_type;
+
+#input event device
+#type input_event_device, dev_type;

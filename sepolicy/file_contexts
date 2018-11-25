@@ -195,5 +195,7 @@
 /dev/mpu                                                        u:object_r:sensors_device:s0
 /dev/mpuirq                                                     u:object_r:sensors_device:s0
 
+#/dev/input/event.*                                              u:object_r:input_event_device:s0
+
 /sys/module/bcmdhd/parameters/firmware_path                     u:object_r:sysfs_wlan_fwpath:s0
 
