@@ -339,6 +339,9 @@ PRODUCT_PACKAGES += \
 #    ro.build.version.updater=nAOSProm-8.1.0-b$(ROM_BUILD_NUM) \
 #    persist.rom.updater.uri=
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.naosp.version=8.1.0-b$(ROM_BUILD_NUM)
+
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat-swap=false \
