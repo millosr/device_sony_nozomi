@@ -2,7 +2,7 @@ name := nAOSProm-8.1.0
 ifeq ($(TARGET_BUILD_TYPE),debug)
   name := $(name)_debug
 endif
-name := $(name)-b$(ROM_BUILD_NUM)
+name := $(name)-b$(ROM_BUILD_NUM)-hikari
 
 INTERNAL_OTA_PACKAGE_TARGET := $(PRODUCT_OUT)/$(name).zip
 
