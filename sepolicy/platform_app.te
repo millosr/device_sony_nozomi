@@ -3,8 +3,8 @@ set_prop(platform_app, shell_prop);
 
 allow platform_app nfc_service:service_manager find;
 allow platform_app sysfs_gpuclk:file r_file_perms;
-allow platform_app sysfs_jack:file r_file_perms;
+allow platform_app sysfs_jack:file rw_file_perms;
 allow platform_app property_socket:sock_file write;
-allow platform_app sysfs_fastcharge:file r_file_perms;
+allow platform_app sysfs_fastcharge:file rw_file_perms;
 allow platform_app init:unix_stream_socket connectto;
 
