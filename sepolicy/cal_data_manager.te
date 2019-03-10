@@ -8,8 +8,8 @@ init_daemon_domain(cal_data_manager)
 allow cal_data_manager cal_data_manager_exec:file execmod;
 allow cal_data_manager self:capability dac_override;
 allow cal_data_manager sensors_device:chr_file { read write };
-allow cal_data_manager system_data_file:dir write;
-allow cal_data_manager system_data_file:file { getattr read };
+allow cal_data_manager system_data_file:dir rw_dir_perms;
+allow cal_data_manager system_data_file:file r_file_perms;
 allow cal_data_manager system_file:file execmod;
 allow cal_data_manager tad:unix_stream_socket connectto;
 allow cal_data_manager tad_socket:sock_file write;

@@ -1,7 +1,7 @@
 set_prop(mediaserver, camera_prop);
 
 allow mediaserver camera_data_file:dir { search write add_name };
-allow mediaserver camera_data_file:file rw_file_perms;
+allow mediaserver camera_data_file:file create_file_perms;
 allow mediaserver diag_device:chr_file { open read write };
 allow mediaserver idd_data_file:dir search;
 allow mediaserver idd_data_file:sock_file write;
