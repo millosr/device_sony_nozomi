@@ -563,10 +563,11 @@ on property:ro.data.large_tcp_window_size=true
 #    disabled
 #    group radio cache inet misc audio sdcard_r sdcard_rw qcom_oncrpc diag wakelock qcom_diag log
 
-service charger /sbin/healthd -c
+service charger /charger
     class charger
-    critical
-    seclabel u:r:healthd:s0
+    user root
+    group root radio system
+    seclabel u:r:charger:s0
 
 # Restart adbd so it can run as root
 on property:service.adb.root=1
