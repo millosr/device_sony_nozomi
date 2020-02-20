@@ -25,8 +25,7 @@ PRODUCT_PACKAGES += \
     FakeStore \
     IchnaeaNlpBackend \
     NominatimNlpBackend \
-    FDroid \
-    YalpStore
+    FDroid
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.fake-signature=true
