@@ -18,7 +18,7 @@ $(INTERNAL_OTA_PACKAGE_TARGET): $(BUILT_TARGET_FILES_PACKAGE) $(DISTTOOLS)
 	   -n \
 	   -p $(HOST_OUT) \
 	   -k $(KEY_CERT_PAIR) \
-	   --no_separate_recovery=true \
+	   --no_separate_recovery=false \
 	   --custom_recovery_partition=/dev/block/mmcblk0p11 \
 	   --backup=true \
 	   --no_preserve_themes \
