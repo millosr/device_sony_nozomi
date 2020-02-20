@@ -198,6 +198,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FMRadio
 
+# Jelly Browser
+PRODUCT_PACKAGES += \
+    Jelly
+
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/clearpad.idc:system/usr/idc/clearpad.idc \
